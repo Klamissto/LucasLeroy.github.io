@@ -20,7 +20,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<h1><a href="#">From 1 AU</a></h1>
-							<p>A UI based, Space gestion game</p>
+							<p>A UI based, Gestion Space game</p>
 						</div>
 
 					<!-- Nav -->
@@ -67,185 +67,165 @@
 
 			<!-- Main -->
 				<div id="main" class="wrapper style2">
-					<div class="title">No Sidebar</div>
+					<div class="title">Overview</div>
 					<div class="container">
-
+						
 						<!-- Content -->
 							<div id="content">
 								<article class="box post">
-									<header class="style1">
-										<h2>Lorem ipsum dolor sit amet magna egestas<br class="mobile-hide" />
-										morbi bibendum sed malesuada</h2>
-										<p>Tempus feugiat veroeros sed nullam dolore</p>
-									</header>
-									<a href="#" class="image featured">
-										<img src="images/pic01.jpg" alt="" />
-									</a>
-									<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-									odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-									facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-									tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
-									<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-									habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-									bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-									lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-									Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-									magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-									leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-									amet risus elit.</p>
-									<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-									ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-									eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
-									eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
-									tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper
-									odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-									facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-									tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-									posuere cubilia.</p>
-									<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-									habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-									bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-									lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-									Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-									magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-									leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-									amet risus elit.</p>
+									<a class="image featured"><img src="images/From1AU.png" alt="" /></a>
+									<p>From 1 AU is a UI based Space game, largely based on the open-source browser game <a href="https://lobby.ogame.gameforge.com/fr_FR/">"Ogame"</a>.
+										It also use few gameplay features from "SpaceWar" (another broser game similar to Ogame) and some assets from the 4X <a href="https://www.paradoxinteractive.com/games/stellaris/about">"Stellaris"</a> by Paradox Interactive.</p>
+										<p>The goal of the game is to develope you civilisation, expand it from your home world by colonizing. To this end you can simply farm ressources on your worlds, fight other empires for ressources and galactic control, or explore the galaxy.
+											The particularity of From 1 AU is that it's game played in real time, meaning that the game keep advancing while your game application is off. 
+											This game is meant to be played a for a few minute every days.
+									 		It is a solo player game in its v1.0 (although a multiplayer was discussed as part of later uptdates).
+										</p>
+										<p>The main idea behind this project was to develope an "Ogame 2.0" by removing most of the features that negatively impact the player experience: the monetization and the fear of losing your progress overnight.
+									 While developing, we took the liberty to add few features to improve the game such as new buildings, ships, defenses and technologies; a late game challenge (the Kardachev scale); and a system of quest, reward, empire personalization (the Guilds system). </p>
+									 <p>The game was developed from scratch on Unreal Engine 4 by a team of 2 people over a year in 2021. We stop the development at version 1.0.5 (v1.0 and 5 bug patches). At this point the game is fully playable in french and english, and ready for distribution.</p>
+									<p>Disclamer: This game project was never commercialised or distributed; and was for the personnal use of their developpers only.</p>
 								</article>
 							</div>
 
 					</div>
 				</div>
 
-			<!-- Highlights -->
-				<section id="highlights" class="wrapper style3">
-					<div class="title">The Endorsements</div>
+			<!-- OldFeatures -->
+			<section id="oldfeatures" class="wrapper style3">
+				<div class="title">Old features</div>
+				<div class="container">
+					<!-- Content -->
+					<div id="content">
+						<article class="box post">
+							<p>In this section, I will go through features that were already in some way or another in "Ogame" that we reimplemented directly or tweaked to reach our visions.</p>
+							
+							<header class="style1">
+								<h2>The Localisation</h2>
+							</header>
+							<p>The game was developped for French and English speaker, and the language can be changed in game at any time.</p>
+							<p>Fun fact: I re-implemented a localisation system from scratch for this game, and I learned few months after the end of the project that Unreal Engine has, obviously, a pre-implemented localisation sytem easy to use.</p>
+
+						</article>
+					</div>
+				</div>
+			</section>
+
+
+			<!-- Added features -->
+				<section id="features" class="wrapper style2">
+					<div class="title">Added features</div>
 					<div class="container">
-						<div class="row aln-center">
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">Aliquam diam consequat</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Nisl adipiscing sed lorem</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
-							<div class="col-4 col-12-medium">
-								<section class="highlight">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">Mattis tempus lorem</a></h3>
-									<p>Eget mattis at, laoreet vel amet sed velit aliquam diam ante, dolor aliquet sit amet vulputate mattis amet laoreet lorem.</p>
-									<ul class="actions">
-										<li><a href="#" class="button style1">Learn More</a></li>
-									</ul>
-								</section>
-							</div>
+						<!-- Content -->
+						<div id="content">
+							<article class="box post">
+								<p>In this section, I will go through features that were added and that were not in "Ogame".</p>
+								<p>Kardachev scale, guilds system, species and diplomacy feature, new ships, new defenses, new building, new technologies</p>
+							</article>
 						</div>
 					</div>
 				</section>
+
+			<!-- Art -->
+			<section id="art" class="wrapper style3">
+				<div class="title">Art</div>
+				<div class="container">
+					<!-- Content -->
+					<div id="content">
+						<article class="box post">
+							<p>This game did not require many art to be made as most of it was re-used: most of the UI was taken from "Ogame", all the music and Species sprites from "Stellaris". 
+								However, we still needed few UI elements for incorporating the new features such as the Guilds system and the Species Page. 
+								All the new pages that were not originally in "Ogame" was drawn and expanded from the style of the rest of game so there is very little creation on this part.</p>
+							
+								<header class="style1">
+									<h2>The Guilds sytem UI icons</h2>
+								</header>
+								
+								<p>The purpose of these 6 icons is to help the player to identify the Corresponding guild through a color and a sign.</p>
+								<a  class="image centered"><img src="images/GuildsUI_IconBig.png" alt="" /></a>
+								<br>
+								<a  class="image left"><img src="images/GuildsUI_Icon.png" alt="" /></a>
+								<p>The small version is also displayed on the main page, and showcase the current level in each guild for quick identification.</p>
+								<br>
+								<br>
+
+								<header class="style1">
+									<h2>The Diplomacy</h2>
+								</header>
+								<a  class="image left"><img src="images/DiplomacyUI.png" alt="" /></a>
+								<p>The purpose of this UI is to help the player to get a grasp on the level of the relationship with other empires. 
+									It also allows to make peace (reset the relationship to 0) of declare war (the empire will then be aggressive toward the player). </p>
+								<br>
+								<br>
+								
+
+								<br>
+								<br>
+								
+								
+
+						</article>
+					</div>
+				</div>
+			</section>
 
 			<!-- Footer -->
-				<section id="footer" class="wrapper">
-					<div class="title">The Rest Of It</div>
-					<div class="container">
-						<header class="style1">
-							<h2>Ipsum sapien elementum portitor?</h2>
-							<p>
-								Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-								Nam pharetra laoreet imperdiet volutpat etiam feugiat.
-							</p>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
+			<section id="footer" class="wrapper">
+				<div class="title">Contact</div>
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-12 col-12-medium">
 
-								<!-- Contact Form -->
-									<section>
-										<form method="post" action="#">
-											<div class="row gtr-50">
-												<div class="col-6 col-12-small">
-													<input type="text" name="name" id="contact-name" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="text" name="email" id="contact-email" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-							</div>
-							<div class="col-6 col-12-medium">
-
-								<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-home">Mailing Address</h3>
-													<p>
-														Untitled Corp<br />
-														1234 Somewhere Rd<br />
-														Nashville, TN 00000
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-comment">Social</h3>
-													<p>
-														<a href="#">@untitled-corp</a><br />
-														<a href="#">linkedin.com/untitled</a><br />
-														<a href="#">facebook.com/untitled</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-envelope">Email</h3>
-													<p>
-														<a href="#">info@untitled.tld</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-phone">Phone</h3>
-													<p>
-														(000) 555-0000
-													</p>
-												</section>
-											</div>
+							<!-- Contact -->
+								<section class="feature-list small">
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon solid fa-home">Location</h3>
+												<p>
+													Palaiseau, 91120<br />
+													France
+												</p>
+											</section>
 										</div>
-									</section>
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon solid fa-comment">Social</h3>
+												<p>
+													<a href="https://linkedin.com/in/lucas-leroy">LinkedIn</a><br />
+												</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon solid fa-envelope">Email</h3>
+												<p>
+													<a href="mailto:recipient@example.com">lucas.a.leroy@gmail.com</a>
+												</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon solid fa-phone">Phone</h3>
+												<p>
+													+33 6 32 47 76 26
+												</p>
+											</section>
+										</div>
+									</div>
+								</section>
 
-							</div>
-						</div>
-						<div id="copyright">
-							<ul>
-								<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
 						</div>
 					</div>
-				</section>
+					<div id="copyright">
+						<ul>
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
 
 		</div>
 
