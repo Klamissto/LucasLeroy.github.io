@@ -450,7 +450,7 @@
 		line-height: 4em;
 
 		&:hover {
-			background-color: #6699cc;
+			background-color: #f98780;
 		}
 
 		&.large {
@@ -459,15 +459,15 @@
 		}
 
 		&.style1 {
-			background: #6699cc url('images/overlay.png');
+			background: #e97770 url('images/overlay.png');
 			color: #fff;
 
 			&:hover {
-				background-color: #6699cc;
+				background-color: #f98780;
 			}
 
 			&:active {
-				background-color: #6699cc;
+				background-color: #d96760;
 			}
 		}
 
@@ -754,12 +754,12 @@
 		}
 
 		&.style1 {
-			background: #6699CC url('images/overlay.png');
+			background: #e97770 url('images/overlay.png');
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 
 			.title {
-				background: #6699CC url('images/overlay.png');
+				background: #e97770 url('images/overlay.png');
 				color: #fff;
 			}
 
