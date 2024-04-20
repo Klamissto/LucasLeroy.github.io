@@ -238,7 +238,81 @@
 						<div id="content">
 							<article class="box post">
 								<p>In this section, I will go through features that were added and that were not in "Ogame".</p>
-								<p>Kardachev scale, guilds system, species and diplomacy feature, new ships, new defenses, new building, new technologies, marché galactic, auctioneer</p>
+								<p>guilds system, new ships, new defenses, new building, new technologies, marché galactic, auctioneer, combat simulator, login summary, quality of life</p>
+								<header id="thediplomacy" class="style1">
+									<h2>The Diplomacy</h2>
+								</header>
+								<p>In a way to make up for the removal of the multiplayer, we implemented a simple diplomacy system. In v1.0, it is pretty basic and only deal with negative relation between empires and the player.
+									This, however, allows to make the universe a bit more realistic in a way that your act won't go unoticed and the player can't just attack other empires without them fighting back.
+									In case the player spy too many times or attack a rival empire, the later will fight back and regulary send fleets to attck and probe to spy the player's worlds.
+								</p>
+								<a  class="image centered"><img src="images/Diplomacy.png" alt="" /></a>
+
+								<p>
+									The frequency of an empires actions are pretty much determined by the level of the relationship: being the slight rival might just lead to few probing mission and occasionnal attacks once in a while; on the other hand draging a relationship to the sewer will lead to daily attacks.
+									The strenght of the fleet depends mainly on the Military Points of the attacking empires. In a way to add variety to the fleet send we created a pool of fleet with differents ship distribution: some will be more deadly against defenses, others against certain kind of ships...
+								</p>
+
+								<p>
+									The player will always have the opportunity to make peace with an attcker if he wishes to and has the require ressources to pay the tribute required by the ennemy empire. The tribute scale with the level of the relationship and the player points.
+									A player can also decide to declare war to an empire if he wishes so.
+								</p>
+
+
+								<a  class="image left"><img src="images/Diplomacy2.png" alt="" /></a>
+								<p>
+									in a way to avoid, the player to take advantage of the game by declearing war to all weak empire whho will then crash their fleet on the player's wolrds, we added a security. 
+									In case the player is significativly stronger compare to another empire, this empire will appear as dead and will no longer attack the player with his fleets.
+								</p>
+								<br>
+								<br>
+								<br>
+								<br>
+
+								<header id="thekardachevscale" class="style1">
+									<h2>The Kardachev Scale</h2>
+								</header>
+								<p>The Kardachev Scale is the game given to the post-game in From 1 AU.
+									The name comes from the real Kardachev scale theorised by Nikolai Kardashev in the 1960s (<a href="https://en.wikipedia.org/wiki/Kardashev_scale">learn more</a>).
+									The essence of it is that there is different kind of civilization operating on different levels of energy. In From 1 AU, this is an option that become available when the player reach the rank 1 of his universe.
+									It will, if chosen by the player, clear the universe and fill it with stronger empires that belong to the next Kardachev scale.
+									The player can thus go on pretty much indefinitly on a single play through by grinding every Kardachev scales.
+									We put this in place to always give the player a challenging environment even if he wishes to pursue his playthrough beyond reaching rank 1 in his first universe.
+								</p>
+
+								<header id="theempirewindow" class="style1">
+									<h2>The Empire Window</h2>
+								</header>
+
+								<p>The Empire window is a feature that was already in the SpaceWar browser game. 
+								It is meant to help the player keep track of everything that is going on in your empire as it could start to e overwhealming once the player gets several worlds to manage.
+								</p>
+
+								<a  class="image centered"><img src="images/EmpireWindow.gif" alt="" /></a>
+
+								<p>In From 1 AU, we try to reproduce this approach by recreating an more polish Empire window to give access to all the details the player could use.
+									In the v1.0, the Empire window include detail on current ressources ("Ressources"); ressource production ("Production"); building and research queues ("Being Built"), available fleets and defenses ("Fleets"), built buildings ("Buildings"), and relationships with other empires ("Relationships").
+								</p>
+
+								
+								<p>As part of From 1 AU, the Empire View is unlocked via the Guilds System, by following the Architects Guild path.</p>
+
+								<header id="thecombatsimulator" class="style1">
+									<h2>The Combat Simulator</h2>
+								</header>
+
+								<p>A by part of From 1 AU gameplay is about attacking ennemy empires of defending your world, the upcoming victory or defeat could be hard to predict for player as many factors impact the outcome (i.e. fleets involves, rapidfires, technologies...).
+									This feature was not included in "Ogame" but is actully crucial for every player that whishes to make good decisioins constistently. Thus we decided to included as part of the game into a user friendly window.
+								</p>
+
+								<a  class="image centered"><img src="images/CombatSimulator.gif" alt="" /></a>
+
+								<p>Since there is a part of randomness in the battle of From 1 AU (due to the rapidfires), the Combat Simulator will not be able to predict the peculiar outcom of your next battle.
+									However, provided all the required informations, it will be able to simulate your upcoming battle multiple times and give the most probable mean outcome with details on how much fleets will be lost, chance of winning, debris fields... 
+								</p>
+
+								<p>As part of From 1 AU, the Empire View is unlocked via the Guilds System, by following the Military Guild path.</p>
+
 							</article>
 						</div>
 					</div>
@@ -253,7 +327,7 @@
 						<article class="box post">
 							<p>This game did not require many art to be made as most of it was re-used: most of the UI was taken from "Ogame", all the music and Species sprites from "Stellaris". 
 								However, we still needed few UI elements for incorporating the new features such as the Guilds system and the Species Page. 
-								All the new pages that were not originally in "Ogame" was drawn and expanded from the style of the rest of game so there is very little creation on this part.</p>
+								All the new pages that were not originally in "Ogame", such as the Empire window and the research tab, were drawn and expanded from the style of the rest of game so there is very little creation on this part.</p>
 							
 								<header id="theguildssytemuiicons" class="style1">
 									<h2>The Guilds sytem UI icons</h2>
