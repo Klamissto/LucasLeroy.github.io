@@ -45,6 +45,12 @@
 										</ul>
 									</li>
 									<li>
+										<a href="#">Code Development</a>
+										<ul>
+											<li><a href="P_2048.html">2048</a></li>
+										</ul>
+									</li>
+									<li>
 										<a href="#">Crafting Project</a>
 										<ul>
 											<li><a href="P_BassGuitar.html">Bass Guitar</a></li>
@@ -83,7 +89,8 @@
 										</p>
 										<p>The main idea behind this project was to develope an "Ogame 2.0" by removing most of the features that negatively impact the player experience: the monetization and the fear of losing your progress overnight.
 									 While developing, we took the liberty to add few features to improve the game such as new buildings, ships, defenses and technologies; a late game challenge (the Kardachev scale); and a system of quest, reward, empire personalization (the Guilds system). </p>
-									 <p>The game was developed from scratch on Unreal Engine 4 by a team of 2 people over a year in 2021. We stop the development at version 1.0.5 (v1.0 and 5 bug patches). At this point the game is fully playable in french and english, and ready for distribution.</p>
+									 <p>The game was developed from scratch on Unreal Engine 4 by a team of 2 people over a year in 2021. 
+										We stop the development at version 1.0.5 (v1.0 and 5 bug patches). At this point the game is fully playable in french and english.</p>
 									<p>Disclamer: This game project was never commercialised or distributed; and was for the personnal use of their developpers only.</p>
 								</article>
 							</div>
@@ -113,6 +120,10 @@
 								<p class="style2">
 									<h1><a href="#thelocalisation" class="nobr">The Localisation</a></h1>
 								</p>
+								<p class="style2">
+									<h1><a href="#theresearchintelpanelui" class="nobr">The Research Intel Panel UI</a></h1>
+								</p>
+								
 							</section>
 						</div>
 						<div class="col-4 col-16-medium">
@@ -120,6 +131,39 @@
 								<ul class="actions">
 									<li><a href="#features" class="button style3 large">Added Features</a></li>
 								</ul>
+								<p class="style2">
+									<h1><a href="#theguildssystem" class="nobr">The Guilds System</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#thediplomacy" class="nobr">The Diplomacy</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#theempirewindow" class="nobr">The Empire Window</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#newbuildingsfleetsandtechnologies" class="nobr">New Buildings, Fleets and Technologies</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#thecombatsimulator" class="nobr">The Combat Simulator</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#theloginsummary" class="nobr">The Login Summary</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#theauctionneerrework" class="nobr">The Auctionneer Rework</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#thespaceportrework" class="nobr">The Spaceport Rework</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#thekardachevscale" class="nobr">The Kardachev Scale</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#callamerchantfeature" class="nobr">"Call Merchant" Feature</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#qualityoflifeimprovments" class="nobr">Quality of Life Improvments</a></h1>
+								</p>
 							</section>
 						</div>
 						<div class="col-4 col-12-medium">
@@ -140,6 +184,21 @@
 								<ul class="actions">
 									<li><a href="#ideas" class="button style3 large">If we had more time...</a></li>
 								</ul>
+								<p class="style2">
+									<h1><a href="#multiplayer" class="nobr">Multiplayer</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#alesshomogenousuniverse" class="nobr">A Less Homogenous Universe</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#questsandstories" class="nobr">Quests and Stories</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#newgamepersonalization" class="nobr">New Game Personalization</a></h1>
+								</p>
+								<p class="style2">
+									<h1><a href="#evolvingbots" class="nobr">Evolving Bots</a></h1>
+								</p>
 							</section>
 						</div>	
 					</div>
@@ -154,7 +213,7 @@
 					<div id="content">
 						<article class="box post">
 							<p>In this section, I will go through features that were already in some way or another in "Ogame" that we reimplemented directly or tweaked to reach our visions.</p>
-
+							<!------------------------------------------------------------------------------------------------->
 							<header id="removingthemonetization" class="style1">
 								<h2>Removing the Monetization</h2>
 							</header>
@@ -164,14 +223,16 @@
 							</p>
 
 							<a  class="image left"><img src="images/Antimatter.png" alt="" /></a>
-							<p> The antimater is the ressource of monetization a player could buy to get advantages. 
+							<p> The antimatter is the ressource of monetization a player could buy to get advantages. 
 								Instead of removing it altogether we just to keep it and introduce it as a rare late-game ressource that the player can unclock and farm on his worlds.
-								For this purpose we added a farm and storage building: the Particule Accelerator and Antimatter Tank, respectively.</p>
+								For this purpose we added a farm and storage building: the Particle Accelerator and Antimatter Tank, respectively.</p>
 
-							<p>This way, most the Merchant features (Ressource Market, Scrap Merchant and Import/Export), and the Shop could be kept as in the original game; providing few balancing changes.</p>
+							<p>This way, most the Merchant features (Ressource Market, Scrap Merchant and Import/Export), and the Shop could be kept as in the original game; providing few balancing changes.
+								The officers feature, were given their own building to be unlocked, and can now be upgraded afterward troughout the same system as technologies.
+							</p>
 
 
-
+							<!------------------------------------------------------------------------------------------------->
 							<header id="remplacingplayersbybots" class="style1">
 								<h2>Remplacing Players by Bots</h2>
 							</header>
@@ -191,7 +252,7 @@
 
 							<p>Our main goal for a v2.0 would have been to bring the cooperation back by making it a multiplayer cooperative game again, or at least to add more cooperative features with the bots such as trades and alliances.
 							</p>
-
+							<!------------------------------------------------------------------------------------------------->
 							<header id="aproceduralygenerateduniverse" class="style1">
 								<h2>A Proceduraly Generated Universe</h2>
 							</header>
@@ -217,13 +278,19 @@
 							<br>
 							<br>
 							<br>
-
+							<!------------------------------------------------------------------------------------------------->
 							<header id="thelocalisation" class="style1">
 								<h2>The Localisation</h2>
 							</header>
 							<p>The game was developped for French and English speaker, and the language can be changed in game at any time.</p>
 							<p>Fun fact: I re-implemented a localisation system from scratch for this game, and I learned few months after the end of the project that Unreal Engine has, obviously, a pre-implemented localisation sytem easy (and easier) to use.</p>
-
+							<!------------------------------------------------------------------------------------------------->
+							<header id="theresearchintelpanelui" class="style1">
+								<h2>The Research Intel Panel UI</h2>
+							</header>
+							<p>"Ogame" already had a panel to summarize the techonogy but it was a bit dubious to our taste so we decided, in addition to add our new buildings, ships, defenses, and technologies, to rework it.</p>
+							<a  class="image centered"><img src="images/Researchpanel.gif" alt="" /></a>
+							
 						</article>
 					</div>
 				</div>
@@ -238,7 +305,27 @@
 						<div id="content">
 							<article class="box post">
 								<p>In this section, I will go through features that were added and that were not in "Ogame".</p>
-								<p>guilds system, new ships, new defenses, new building, new technologies, marché galactic, auctioneer, combat simulator, login summary, quality of life</p>
+								<!------------------------------------------------------------------------------------------------->
+								<header id="theguildssystem" class="style1">
+									<h2>The Guilds System</h2>
+								</header>
+								<p>The Guilds System, is probably the majot additon we made. It provide the player a set of achievments to pursue within 6 Guilds: The Collectors Guild, The Traders Guild, The Architects Guild, The Explorators Guild, The Defenders Guild and The Warriors Guild. 
+								</p>
+								<p>
+									The player can advance each Guild by completing achievments that suits the Guilds:
+									by mainly collecting ressources for The Collectors Guild,
+									by trading and transporting ressources for The Traders Guilds,
+									by building facilities for the Architects Guild,
+									by conduction researchs and expeditions for the Explorators Guild,
+									by building defenses and winning defensive battles for The Defenders Guild,
+									by building fleets and winnin offensive battles for The Warriors Guild.
+								</p>
+								<p>
+									Each Guild has 20 level, each one with they own requierments and rewards. By grinding a guild, the player will be able to unlock key buildings, technologies, ships and defenses; but also gain various bonuses that will empower the style of play of each guild.
+								</p>
+
+								<a  class="image centered"><img src="images/GuildsPanel.gif" alt="" /></a>
+								<!------------------------------------------------------------------------------------------------->
 								<header id="thediplomacy" class="style1">
 									<h2>The Diplomacy</h2>
 								</header>
@@ -258,7 +345,6 @@
 									A player can also decide to declare war to an empire if he wishes so.
 								</p>
 
-
 								<a  class="image left"><img src="images/Diplomacy2.png" alt="" /></a>
 								<p>
 									in a way to avoid, the player to take advantage of the game by declearing war to all weak empire whho will then crash their fleet on the player's wolrds, we added a security. 
@@ -268,18 +354,7 @@
 								<br>
 								<br>
 								<br>
-
-								<header id="thekardachevscale" class="style1">
-									<h2>The Kardachev Scale</h2>
-								</header>
-								<p>The Kardachev Scale is the game given to the post-game in From 1 AU.
-									The name comes from the real Kardachev scale theorised by Nikolai Kardashev in the 1960s (<a href="https://en.wikipedia.org/wiki/Kardashev_scale">learn more</a>).
-									The essence of it is that there is different kind of civilization operating on different levels of energy. In From 1 AU, this is an option that become available when the player reach the rank 1 of his universe.
-									It will, if chosen by the player, clear the universe and fill it with stronger empires that belong to the next Kardachev scale.
-									The player can thus go on pretty much indefinitly on a single play through by grinding every Kardachev scales.
-									We put this in place to always give the player a challenging environment even if he wishes to pursue his playthrough beyond reaching rank 1 in his first universe.
-								</p>
-
+								<!------------------------------------------------------------------------------------------------->
 								<header id="theempirewindow" class="style1">
 									<h2>The Empire Window</h2>
 								</header>
@@ -287,7 +362,7 @@
 								<p>The Empire window is a feature that was already in the SpaceWar browser game. 
 								It is meant to help the player keep track of everything that is going on in your empire as it could start to e overwhealming once the player gets several worlds to manage.
 								</p>
-
+								
 								<a  class="image centered"><img src="images/EmpireWindow.gif" alt="" /></a>
 
 								<p>In From 1 AU, we try to reproduce this approach by recreating an more polish Empire window to give access to all the details the player could use.
@@ -296,7 +371,119 @@
 
 								
 								<p>As part of From 1 AU, the Empire View is unlocked via the Guilds System, by following the Architects Guild path.</p>
+								<!------------------------------------------------------------------------------------------------->
+								<header id="newbuildingsfleetsandtechnologies" class="style1">
+									<h2>New Buildings, Fleets and Technologies</h2>
+								</header>
+								<p>In From 1 AU we added several new buildings, fleets/defenses and technology to expend the player experience. 
+									Our purpose with these was to add to the game and not simply stuffing new "recolored" features to the game.
+									Thus, all additions serve a unique (new) purpose to the game.
+									In this section, I will go quickly through each of them.</p>
+								<header class="style2">
+									<h1>New Buildings and Facilities</h1>
+								</header>
+								<a  class="image left"><img src="images/accelerateur_de_particules_small.png" alt="" /></a>
+								<p>The Particle Accelerator is the place where the antimatter is produced.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/hangar_anti_matiere._small.png" alt="" /></a>
+								<p>The Antimatter Tank is the place where the antimatter is stored.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/marche_intergalactique_small.png" alt="" /></a>
+								<p>The Intergalactic Market is the facility used to unlock the various merchant of the game.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/centre_de_formation_small.png" alt="" /></a>
+								<p>The Training Center is the facility used to unlock the various officers of the game. </p>
+								<br>
+								<br>
+								<br>
+								<header class="style2">
+									<h1>New Fleets and Defenses</h1>
+								</header>
+								<a  class="image left"><img src="images/exctracteur_small.png" alt="" /></a>
+								<p>The Extractor is a ship that can be sent to unhabited planet to extract ressources.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/foudroyeur_small.png" alt="" /></a>
+								<p>The Striker is a massive ship that uses antimatter as its primary weaponery.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/convoyeur_small.png" alt="" /></a>
+								<p>The Convoyer is a massive cargo ship that can transport up to 250k units of ressources (basic value).</p>
+								<br>
+								<br>
+								<br>
+								</header>
+								<a  class="image left"><img src="images/protecteur_planetaire_small.png" alt="" /></a>
+								<p>The Planetary Shield is a massive defense shield that encapsulate the whole planet.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/canon_antimatiere_small.png" alt="" /></a>
+								<p>The Antimatter Canon is a massive orbital defense that uses antimatter as its primary weaponery.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/canon_graviton_small.png" alt="" /></a>
+								<p>The Graviton Cannon is a massive orbital defense that creates a graviton field to destroy the most massive ships.</p>
+								<br>
+								<br>
+								<br>
+								<header class="style2">
+									<h1>New building class: Orbital Buildings</h1>
+								</header>
+								<p>In from 1 Au, we added a new class of buildings: Orbital buildings. These massive facilities are meant to be built in orbit of a planet at a late game stage.
+									They are mostly upscaled version of some facilities already found on the planet and are there to cope with the late game scaling that tends (in "Ogame") to plumber the rythm of improving and building facilities/ships/technologies.
+									The particularity if Orbital buildings is that they do not need space on the planet to be built. However, this adantage is balanced by their heavy ressources price.
+									</p>
 
+								<a  class="image left"><img src="images/orbital_solar_plant_small.png" alt="" /></a>
+								<p>The Orbital Solar Slant allows to produce massive amount of energy from space. </p>
+								<br>
+								<br>
+								<br>
+
+								<a  class="image left"><img src="images/chantier_spatial_orbital_small.png" alt="" /></a>
+								<p>The Orbital Shipyard allows unlock massive ships (which could not be build on a planet such as a Deathstar) and orbital defenses. 
+									It also reduces considerably the building time of all ships on the planet (similarly to the effect of the Nanites Factory for the buildings and facilities).</p>
+								<br>
+
+								<a  class="image left"><img src="images/labo_orbital_small.png" alt="" /></a>
+								<p>The Orbital Laboratories allows unlock some of the most advanced technologies. 
+									It also reduces considerably the research time of all technologies on the planet (similarly to the effect of the Nanites Factory for the buildings and facilities).</p>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/habitat_orbital_small.png" alt="" /></a>
+								<p>The Orbital Habitat works as the terraformer by allowing extra building space on the planet.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/porte_saut_orbital_small.png" alt="" /></a>
+								<p>The Orbital Jump Gate allows to reduce the outward travel time of fleet departing from this planet.</p>
+								<br>
+								<br>
+								<br>
+								<a  class="image left"><img src="images/lune_artificielle_small.png" alt="" /></a>
+								<p>The Artificial Moon allows the player to build his own moon out of ressources. 
+									Moons are pretty valuable in From 1 AU and the only other way to create one is through a random generation from a post battle wreackage.
+									Thus, we decided to add an (extremely expensive) option for the player to create his own moon so he won't be cut indefinitively from this part of the gameplay if luck does not pay out. 
+								</p>
+								<br>
+								<header class="style2">
+									<h1>New Technologies</h1>
+								</header>
+								<p>We also added 4 new (advanced) technologies to unclock some of the most advanced previous additions.
+									These technologies include: the Orbital Engineering, Particle, Space Jump, and Quantum Technologies.
+								</p>
+								<a  class="image centered"><img src="images/Newtechnologies.png" alt="" /></a>
+								<!------------------------------------------------------------------------------------------------->
 								<header id="thecombatsimulator" class="style1">
 									<h2>The Combat Simulator</h2>
 								</header>
@@ -311,7 +498,97 @@
 									However, provided all the required informations, it will be able to simulate your upcoming battle multiple times and give the most probable mean outcome with details on how much fleets will be lost, chance of winning, debris fields... 
 								</p>
 
-								<p>As part of From 1 AU, the Empire View is unlocked via the Guilds System, by following the Military Guild path.</p>
+								<p>As part of From 1 AU, the Empire View is unlocked via the Guilds System, by following the Warriors Guild path.</p>
+
+								<!------------------------------------------------------------------------------------------------->
+								<header id="theloginsummary" class="style1">
+									<h2>The Login Summary</h2>
+								</header>
+								<a  class="image left"><img src="images/Loginsummary.png" alt="" /></a>
+								<p>
+								Because it is easy to lost track of everything that is going on on all player's worlds, we added a login summary feature.
+								It will basically summary everything that happened since the player last play the game.
+								</p>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								
+								<!------------------------------------------------------------------------------------------------->
+								<header id="theauctioneerrework" class="style1">
+									<h2>The Auctionneer Rework</h2>
+								</header>
+								<p>In "Ogame", the Auctioneer allows players to take part in an auction for a perk. The players behing removed, the Auctioneer feature would then closely ressemble the Import/Export one.
+								Thus, in From 1 AU we reworked the Auctioneer feature so the player can now purshase a fleet per day (as in the Import/Export where the player can purshase a perk per day) 
+								</p>
+								<a  class="image centered"><img src="images/Auctioneer.png" alt="" /></a>
+								<p>The ships/defenses available in the auctioneer are drawn from a pool of preset ships/defenses distributions. This allows to present to the player various kind of fleet with different specializations.
+									Some are more focus on light/medium/heavy ships/defenses, other are civil and utilitary fleet. the purpose of the auctioneer is that it allows the player to purshase fleets at a lower price compared to building them directly in their shipyards.
+									The number of fleets/defenses in a daily pack is determined by the player General Points so that is it a balanced and accessible feature throughout a whole run.
+								</p>
+
+								<p>	Along with all the feature that reset every day, it also increases player engagment and give them another reason to connect every days.
+								</p>
+								
+								<!------------------------------------------------------------------------------------------------->
+								<header id="thespaceportrework" class="style1">
+									<h2>The Spaceport Rework</h2>
+								</header>
+								<p>In "Ogame", the Spaceport was use to reduce the fluel (i.e. deterium) cost of keeping the fleet of another player on one of his worlds. 
+									The possibility to do that being gone, we reworked the Spaceport giving it a new utility: reduce the fuel cost of launching a fleet from a planet.
+									This has the advantage of tackling a major issue of the late game which is the enormous amount of deterium needed to move gigantic fleets around.
+								</p>
+								<!------------------------------------------------------------------------------------------------->
+								<header id="thekardachevscale" class="style1">
+									<h2>The Kardachev Scale</h2>
+								</header>
+								<p>The Kardachev Scale is the game given to the post-game in From 1 AU.
+									The name comes from the real Kardachev scale theorised by Nikolai Kardashev in the 1960s (<a href="https://en.wikipedia.org/wiki/Kardashev_scale">learn more</a>).
+									The essence of it is that there is different kind of civilization operating on different levels of energy. In From 1 AU, this is an option that become available when the player reach the rank 1 of his universe.
+									It will, if chosen by the player, clear the universe and fill it with stronger empires that belong to the next Kardachev scale.
+									The player can thus go on pretty much indefinitly on a single play through by grinding every Kardachev scales.
+									We put this in place to always give the player a challenging environment even if he wishes to pursue his playthrough beyond reaching rank 1 in his first universe.
+								</p>
+								
+								<!------------------------------------------------------------------------------------------------->
+								<header id="callamerchantfeature" class="style1">
+									<h2>"Call Merchant" Feature</h2>
+								</header>
+								<p>Throughout expeditions, the player can sometime earn favor from a Merchant. He can then call on it to either reset the offer of a Merchant or purshase its service with no cost.
+								</p>
+								<!------------------------------------------------------------------------------------------------->
+								<header id="qualityoflifeimprovments" class="style1">
+									<h2>Quality of Life Improvments</h2>
+								</header>
+								<p>Along the way, we also added a bunch of improvments to the UI to help the player to navigate is more quickly and to assess the situation of his empire more easily. 
+									I have surely forgot some of them as, at the time I am writting this article, it now feels they are always been there.
+									However, these improvments include:
+								</p>
+								<p> - possibility to "star" messages to keep them from being deleted over time.</p>
+								<p> - quick acess to star messages.</p>
+								<p> - options on how long after being seen a message is deleted.</p>
+								<p> - quick links from messages to various action (sending probe, colonizing ship, pre filled combat simulator...).</p>
+								<p> - quick links from incoming/outcoming attack to pre filled combat simulator.</p>
+								<p> - quick links to the various guilds.</p>
+								<p> - rework of the left bar UI to include links to the new panels.</p>
+								<p> - various information are displayed in the galaxy view (number of probes, recyclers and interplanetary missiles available).</p>
+								<p> - quick recycling button in the galaxy panel.</p>
+								<p> - debris fields are added over time in the galaxy panel to make the universe feels more alive.</p>
+								<p> - possibility to sort the player's planets on the right side by either coordinate, max space or colonizing date.</p>
+								<p> - quick save (the game is saved automatically when login in or out of the game but even if we do not report any crashes in the v1.0, a manual save option is still valuable).</p>
+								<p> - option to change the player's name.</p>
+								<p> - quick access to the player's rank in the rank panel.</p>
+								<p> - notice of how many fleets/defenses the player can currently build.</p>
+								<p> - and whatever I forgot...</p>
+
 
 							</article>
 						</div>
@@ -369,7 +646,95 @@
 					<!-- Content -->
 					<div id="content">
 						<article class="box post">
-							<p>multiplayer, main quest, secondary quest and secret, more personalisation feature at the start of a new game, less homogenous universe, evolving Bots</p>
+							<p>In the previous sections, I detailed everything (I remembered) of what we included in the v1.0 of From 1 AU.
+								We decided to stop the development there for two reasons: the first being that one need to stop at some point in these stage was the goal fixed a year before, and the second was we wanted to actually play the game. 
+								This was the whole reason why we decided to develop it in the first place, and keeping on developping would have delay this further more maybe to the point where we would not want to play the game anymore.
+							</p>
+							<p>Nevertheless, we still had many new features/ improvements we had written down for a v2.0 of the game that I will quickly present here.</p>
+
+							<!------------------------------------------------------------------------------------------------->
+							<header id="multiplayer" class="style1">
+								<h2>Multiplayer</h2>
+							</header>
+							<p>The wish to bring back the cooperative features and the multiplayer aspect of the game was here from the beginning. 
+								The reason why we decided to make From 1 AU a solo game in v1.0 was that we did not want to pay for a dedicated server to run the universe player would play in. 
+								Considering it was our first big game development project, I still think it was a good call considering all the unknown on how the project will go at the time. </p>
+							
+							<p>Bringing back the multiplayer was a first option, but we already though about enhancing the diplomacy system.
+								For a later version, we wanted to implement ways to improve relationship with AI empires. 
+								It was planned to be done through small quests, trading and an emissary system.
+								Positive relationship would have granted benefit such as reduced research time, possibility to call on allies during wars for either ship or ressources through a favor system.
+								At the next stage we wanted to bring back alliances so player can get even more bonuses through cooperation. 
+								An alliance fleet shared by all participants and an alliance trading center are few examples of what can be drawn from it.
+							</p>
+							<!------------------------------------------------------------------------------------------------->
+							<header id="aspeciessystem" class="style1">
+								<h2>A Species System</h2>
+							</header>
+							<p>In v1.0 of From 1 AU, species are just a cosmetic feature. Our future plan was to give each species small advantages favouring a different kind of playing th game.
+								We actually already wrote the details of these bonuses for Habitability level, bonuses of ressource extraction and bonuses of construction time during the play tests of the 1.0.
+								The goal of it was to give each specy an identity with a favourite kind of world (meaning more space available) and innates skill (meaning various bonuses).
+							</p>
+
+							<p>
+								We also wrote down an in game modification system through a new "Biology" technology which would have allowed the player to modify his specie attributes throughout a run.
+								It was also discussed to be able to access specific specie modifications through peculiar secondary quests.
+							</p>
+							<p> Out of all the planned feature for a v2.0, this one is probably the most advanced as it was almost done to be designed and ready to be implemented.</p>
+
+							<!------------------------------------------------------------------------------------------------->
+							<header id="alesshomogenousuniverse" class="style1">
+								<h2>A Less Homogenous Universe</h2>
+							</header>
+
+							<p>As part of making the universe less homogeneous we planned on making a more diverse pool of system. 
+								For example some could have fewer planets, dead world, differents kinds of star (each one with it bonuses and habitable zone), peculiar formation bringing modificators to the system.
+								We wanted to bring this feeling for exploring in the forefront in a way that the player could feel that the "perfect solar system" is out there for him to find.
+							</p>
+
+							<!------------------------------------------------------------------------------------------------->
+							<header id="questsandstories" class="style1">
+								<h2>Quests and Stories</h2>
+							</header>
+
+							<p>What I mean by "quests" and "stories"? "Quests" the player gets a reward (ressources, bonuses, fleet, building, technology...), "stories" he does not (the story itself is the reward for the player).</p>
+
+							<p>For the v2.0, we wanted to include a Main Quest line which you have turn around an old advanced civilization scatter around the universe. 
+								The technology tree could have been modify to include the the differents stage of the story line to advance.</p>
+
+							<p>In addition to that, we wanted to include some secondary quest that could have been either quests of story.
+								This was planned in a way to push the player to explore the galaxy and making it less homogeneous. 
+								We would have added a scientific ship dedicated to exploring planets. The differents solar system could have been hidden from the player until being explored.
+								Few, randomly chosen, planets would have a quest/story trigered upon exploring which would potentialy lead to a reward (either ressources, ship or an exclusive bonus for the planet making it worth colonizing).
+							</p>
+
+							<p>
+								Another way to add small secondary quest would have been by the expedition system already implemented, by adding new expedition outcomes.
+								New expedition outcomes would have require a decision from the player (by opposition to the current "report of the expedition" that is just a report of what happened).
+								This system could also have been coupled with the diplomacy system as a way to improve relationship with other empires.
+							</p>
+
+							<!------------------------------------------------------------------------------------------------->
+							<header id="newgamepersonalization" class="style1">
+								<h2>New Game Personalization</h2>
+							</header>
+
+							<p>Here we planned to had various new options to the player so he can generate the run that suited him.
+								These extra options included: choice of the specie, agressivity ennemy empire, progressive decline of relation with AI empire, basic income of ressources on players worlds (or just the home world)...
+							</p>
+
+							<!------------------------------------------------------------------------------------------------->
+							<header id="evolvingbots" class="style1">
+								<h2>Evolving Bots</h2>
+							</header>
+
+							<p>
+								In v1.0 of From 1 AU, the bots are fixed at the start of the game or when passing to the next Kardachev scale.
+								A good upgrade could have been, while keeping few pre set empires, generating evolving empires who grow their worlds and expand by colonization. 
+								Even though it might have been time consuming to program these behavior it would have added much to how alive the universe feels.
+							</p>
+
+
 						</article>
 					</div>
 				</div>
