@@ -77,17 +77,23 @@
 								<article class="box post">
 									<a class="image featured"><img src="images/From1AU/From1AU.png" alt="" /></a>
 									<p>From 1 AU is a UI based Space game, largely based on the open-source browser game <a href="https://lobby.ogame.gameforge.com/fr_FR/">"Ogame"</a>.
-										It also use few gameplay features from "SpaceWar" (another broser game similar to Ogame) and some assets from the 4X <a href="https://www.paradoxinteractive.com/games/stellaris/about">"Stellaris"</a> by Paradox Interactive.</p>
-										<p>The goal of the game is to develope you civilisation, expand it from your home world by colonizing. To this end you can simply farm ressources on your worlds, fight other empires for ressources and galactic control, or explore the galaxy.
-											The particularity of From 1 AU is that it's game played in real time, meaning that the game keep advancing while your game application is off. 
-											This game is meant to be played a for a few minute every days.
-									 		It is a solo player game in its v1.0 (although a multiplayer was discussed as part of later uptdates).
-										</p>
-										<p>The main idea behind this project was to develope an "Ogame 2.0" by removing most of the features that negatively impact the player experience: the monetization and the fear of losing your progress overnight.
-									 While developing, we took the liberty to add few features to improve the game such as new buildings, ships, defenses and technologies; a late game challenge (the Kardachev scale); and a system of quest, reward, empire personalization (the Guilds system). </p>
-									 <p>The game was developed from scratch on Unreal Engine 4 by a team of 2 people over a year from march 2021 to march 2022. 
-										We stop the development at version 1.0.5 (v1.0 and 5 bug patches). At this point the game is fully playable in french and english.</p>
-									<p>Disclamer: This game project was never commercialised or distributed; and was for the personnal use of their developers only.</p>
+										It also uses some gameplay elements from "SpaceWar" (another broser game similar to Ogame) and some assets from 4X. <a href="https://www.paradoxinteractive.com/games/stellaris/about">"Stellaris"</a> by Paradox Interactive.
+									</p>
+									<p>The aim of the game is to develop your civilisation and expand beyond your home world through colonisation. 
+										To do this, you can simply grow resources on your worlds, fight other empires for resources and galactic control, or explore the galaxy.ore the galaxy.
+										What's special about From 1 AU is that it's a real-time game, meaning that the game continues to progress while your game application is turned off. 
+										This game is designed to be played for a few minutes a day, every days.
+										This is a single-player game in its 1.0 version (although multiplayer has been envisaged as part of subsequent updates).
+									</p>
+									<p>
+										The main idea behind this project was to develop an "Ogame 2.0" by removing most of the elements that have a negative impact on the player's experience: monetisation and the fear of losing progress overnight.
+										During development, we took the liberty of adding a few features to improve the game, such as new buildings, ships, defences and technologies; an end-game challenge (The Kardachev scale); and a quest, reward and empire customisation system (the Guilds system). 
+									</p>
+									 <p>
+										The game was developed from scratch on Unreal Engine 4 by a team of 2 people over the course of a year, from March 2021 to March 2022. 
+										We have stopped development at version 1.0.5 (v1.0 and 5 bug fixes). At this stage, the game is fully playable in French and English.
+									</p>
+									<p>Disclaimer: This game project has never been commercialised or distributed; it is for the personal use of its developers.</p>
 								</article>
 							</div>
 
@@ -105,16 +111,16 @@
 									<li><a href="#oldfeatures" class="button style3 large">Old Features</a></li>
 								</ul>
 								<p class="style2">
-									<h1><a href="#removingthemonetization" class="nobr">Removing the Monetization</a></h1>
+									<h1><a href="#removingthemonetization" class="nobr">Removing Monetisation</a></h1>
 								</p>
 								<p class="style2">
-									<h1><a href="#remplacingplayersbybots" class="nobr">Remplacing Players by Bots</a></h1>
+									<h1><a href="#replacingplayerswithbots" class="nobr">Replacing Players with Bots</a></h1>
 								</p>
 								<p class="style2">
-									<h1><a href="#aproceduralygenerateduniverse" class="nobr">A Proceduraly Generated Universe</a></h1>
+									<h1><a href="#aprocedurallygenerateduniverse" class="nobr">A Procedurally Generated Universe</a></h1>
 								</p>
 								<p class="style2">
-									<h1><a href="#thelocalisation" class="nobr">The Localisation</a></h1>
+									<h1><a href="#thelocalization" class="nobr">The Localization</a></h1>
 								</p>
 								<p class="style2">
 									<h1><a href="#theresearchintelpanelui" class="nobr">The Research Intel Panel UI</a></h1>
@@ -210,60 +216,68 @@
 							<p>In this section, I will go through features that were already in some way or another in "Ogame" that we reimplemented directly or tweaked to reach our visions.</p>
 							<!------------------------------------------------------------------------------------------------->
 							<header id="removingthemonetization" class="style1">
-								<h2>Removing the Monetization</h2>
+								<h2>Removing Monetisation</h2>
 							</header>
 							<p>"Ogame" is heavily monetized and the purpose of it is to give a competitive advantage to the player through extra ressources or perks. 
-								If we wished to get rid of this aspect, some of the perks that arise from the monetization are actully great gameplay feature that westill wanted in the game.
-								Thus, we tried to incorporate them in the base game in the way that makes sense.
+								If we wanted to get rid of that aspect, some of the perks that come from monetisation are actually great gameplay features that we still want to keep in the game.
+								Thus, we tried to integrate them into the basic game as logically as possible.
 							</p>
 
 							<a  class="image left"><img src="images/From1AU/Antimatter.png" alt="" /></a>
-							<p> The antimatter is the ressource of monetization a player could buy to get advantages. 
-								Instead of removing it altogether we just to keep it and introduce it as a rare late-game ressource that the player can unclock and farm on his worlds.
-								For this purpose we added a farm and storage building: the Particle Accelerator and Antimatter Tank, respectively.</p>
+							<p> 
+								Antimatter is the monetisation resource that a player can buy to gain advantages.  
+								Instead of removing it altogether, we've kept it and introduced it as a rare end-game resource that players can unlock and farm on their worlds.
+								To this end, we have added a farm and a storage building: the Particle Accelerator and the Antimatter Tank, respectively.
+							</p>
 
-							<p>This way, most the Merchant features (Ressource Market, Scrap Merchant and Import/Export), and the Shop could be kept as in the original game; providing few balancing changes.
+							<p>
+								This way, most the Merchant features (Ressource Market, Scrap Merchant and Import/Export), and the Shop could be kept as in the original game; providing few balancing changes.
 								The officers feature, were given their own building to be unlocked, and can now be upgraded afterward troughout the same system as technologies.
 							</p>
 
 
 							<!------------------------------------------------------------------------------------------------->
-							<header id="remplacingplayersbybots" class="style1">
-								<h2>Remplacing Players by Bots</h2>
+							<header id="replacingplayerswithbots" class="style1">
+								<h2>Replacing Players with Bots</h2>
 							</header>
-							<p>"Ogame" is a multiplayer first, and the interactions between players (wars, guilds, cooperations) are a big part of the game. 
-								On the other hand, the fact that another player can totally wipe out your whole fleet while you sleep is a bit overwhealming for casual players.
-								Thus we decied to remove this PvP altogether and making it a solo game. </p>
+							<p>"Ogame" is first and foremost a multiplayer game, and interactions between players (wars, guilds, co-operations) are a big part of the game. 
+								On the other hand, the fact that another player can wipe out your entire fleet while you're sleeping is a little exasperating for casual gamers.
+								Thus we decied to remove the PvP altogether and make it a single-player game.. 
+							</p>
 
-							<p>The bots were proceduraly generated, along the universe itself, to resemble a distriution that could be observe in a mature "Ogame" universe. 
-								The main lines of this process was to generate a distribution of bots General Points.
-								Then deduce from it specificities of the empire and associate planets (spread in system close to a "home" planet), fleets (with a scatter depending on an indicator of their agressivness), building, and technologies levels.
-								All of these were, of course, did in a way it did not break the technology tree of the game.</p>
+							<p>
+								The bots have been procedurally generated, as has the universe itself, to resemble a cast that might be seen in a mature "Ogame" universe.
+								The main lines of this process were to generate a distribution of bots' General Points.
+								Then deduce the empire's specific characteristics and associate planets (spread throughout the system close to a "home" planet), fleets (with dispersion depending on an indicator of their aggressiveness), buildings and technologies levels.
+								All this has been done, of course, in such a way as not to break the game's technological tree.</p>
 
-							<p>The name of each empire was randomly generated as well by associating an empire title among 20 (Empire, Union, Federation, Concil...) with the specie's name of the empire. 
-								The specie's name was determined by randomly putting together syllable in a large set. Then a specie sprite was associated with the empire.</p>
+							<p>
+								The name of each empire has also been randomly generated by associating one of 20 empire titles (Empire, Union, Federation, Concil...) with the name of the empire's species. 
+								The species name was determined by randomly assembling syllables from a large set. Then a sprite of the species was associated with the empire.
+							</p>
 
 								<a  class="image centered"><img src="images/From1AU/BotsIMG.png" alt="" /></a>
 
-							<p>Our main goal for a v2.0 would have been to bring the cooperation back by making it a multiplayer cooperative game again, or at least to add more cooperative features with the bots such as trades and alliances.
+							<p>
+								Our main objective for v2.0 would have been to bring back cooperation by making it a cooperative multiplayer game, or at least to add more cooperative functions with the bots such as trading and alliances.
 							</p>
 							<!------------------------------------------------------------------------------------------------->
-							<header id="aproceduralygenerateduniverse" class="style1">
-								<h2>A Proceduraly Generated Universe</h2>
+							<header id="aprocedurallygenerateduniverse" class="style1">
+								<h2>A Procedurally Generated Universe</h2>
 							</header>
 							<a  class="image left"><img src="images/From1AU/UniverseParam.png" alt="" /></a>
-							<p>The game universe is proceduraly generated at the start of a new game according to a set of adjustable parameters.</p>
+							<p>The game universe is procedurally generated at the start of a new game based on a set of adjustable parameters.</p>
 							
-							<p>For example the player can chose the number of galaxies, and the number of system per galaxy. 
-								Picking a too high number can however lead to a higher loading time when logging back in a game (that is when al the uptdate of what happened when the player was away takes place).</p>
+							<p>For example, the player can choose the number of galaxies and the number of systems per galaxy. 
+								However, choosing too high a number may result in a longer loading time when the player reconnects to a game (this is when the update of what happened during the player's absence takes place).</p>
 							
-							<p>The player can also chose his home planet. In the game not all planet are equal: some gives you more of one kind of ressources, others are smaller/larger than average. 
-								This option can give the player a different taste to a new game; picking a planet in position 1 (the closest to the star) or 15 (on the edges of the systeme) could be quite challenging.</p>
+							<p>Players can also choose their home planet. In the game, not all planets are equal: some give you more/less of some specific resource, others might be smaller/larger. 
+								This option can give players a different taste for a new game; choosing a planet in position 1 (closest to the star) or 15 (on the edges of the system) can be a real challenge.</p>
 							
-							<p>The game is quite slow in its default settings: count roughly 4-6 months to reach the late game, and over a year to climb to rank 1 of the galaxy. 
-								Thus, we added the possibility for the player to change the speed of the game in case he wishes to develope faster (such as in the SpaceWars browser game were these kind of paramaters are turn all the way up).</p>
+							<p>The game is fairly slow in its default settings: allow around 4 to 6 months to reach the end of the game, and more than a year to climb to rank 1 in the galaxy. 
+								So we've added the option for players to change the speed of the game if they want to progress more quickly (as in the browser game SpaceWars, where this type of setting is turned all the way up).</p>
 
-							<p>Then, we added an option in a "Other Bonus" so the player can tweak his experience to his liking. This section was in particular meant to be fill in later updates of the game.</p>
+							<p>Then, we've added an option in an "Other Bonus" section so that players can tailor their experience to their taste. This section was intended to be filled in future updates to the game.</p>
 
 							<br>
 							<br>
@@ -274,16 +288,16 @@
 							<br>
 							<br>
 							<!------------------------------------------------------------------------------------------------->
-							<header id="thelocalisation" class="style1">
-								<h2>The Localisation</h2>
+							<header id="thelocalization" class="style1">
+								<h2>The Localization</h2>
 							</header>
-							<p>The game was developed for French and English speaker, and the language can be changed in game at any time.</p>
-							<p>Fun fact: I re-implemented a localisation system from scratch for this game, and I learned few months after the end of the project that Unreal Engine has, obviously, a pre-implemented localisation sytem easy (and easier) to use.</p>
+							<p>The game has been developed for both French and English speakers, and the language can be changed at any time in the game.</p>
+							<p>Fun fact: I reimplemented a localization system from scratch for this game, and learned a few months after the project was completed that Unreal Engine 4 does, of course, have an easy (and easier) pre-implemented localization system to use.</p>
 							<!------------------------------------------------------------------------------------------------->
 							<header id="theresearchintelpanelui" class="style1">
 								<h2>The Research Intel Panel UI</h2>
 							</header>
-							<p>"Ogame" already had a panel to summarize the techonogy but it was a bit dubious to our taste so we decided, in addition to add our new buildings, ships, defenses, and technologies, to rework it.</p>
+							<p>"Ogame' already had a panel to summarise the technology tree, but it was a bit dubious for our taste. So, as well as adding our new buildings, ships, defences and technologies, we decided to rework it.</p>
 							<a  class="image centered"><img src="images/From1AU/Researchpanel.gif" alt="" /></a>
 							
 						</article>
