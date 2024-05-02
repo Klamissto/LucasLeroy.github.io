@@ -76,29 +76,33 @@
 								<article class="box post">
 									<a class="image featured"><img src="images/2048/2048_lg.png" alt="" /></a>
 									<p>
-										"2048" is a game that I played on mobile back in 2014. Nowadays, it can also be played online (<a href="https://jeu2048.fr/">2048</a>). 
-										The purpose of the game is to combine identic numbers to stack their value in a 4x4 grid: combining two 2 with give youa 4 and so on. 
-										At each move of the player a new number (a 2 or a 4) appears in the grid.
-										The game stop when the grid is full and that no move are possible.
-										Even though the game is does not end until the player bock itself, there is a symbolic winning number: 2048.
-										Already reaching 2048 is quite an achievement for new players as it requires a good strategy and a bit of luck sometime.
+										"2048" is a game I played on mobile in 2014. Now you can play it online too (<a href="https://jeu2048.fr/">2048</a>). 
+										The aim of the game is to combine identical numbers to stack their values in a 4x4 grid: by combining two 2s, you get a 4, and so on. 
+										Each time the player moves, a new number (a 2 or a 4) appears in the grid.
+										The game stops when the grid is full and no movement is possible.
+										Even though the game only ends when the player blocks himself, there is a symbolic winning number to reach: 2048.
+										Reaching 2048 is already a feat for new players, as it requires a good strategy and sometimes a bit of luck.
 									</p>
 									<a class="image left"><img src="images/2048/pbest.png" alt="" /></a>
 									<p>	
-										My personal best represented by the sum of all the numbers in the grid is 5614 with a maximum tile of 4096. 
-										This is a pretty honorable score on its own and a max tile of 4096 is something I achieved only 2 time in all my playing time.
+										My personal best, represented by the sum of all the numbers in the grid, is 5614, with a maximum tile of 4096. 
+										That is a pretty respectable score in itself and a maximum tile of 4096 is something I have only achieved twice in all my playing time.
 									</p>
 									<p>
-										The main limitation when you play is that one mistake, one wrong move can cost you the game.
-										Luck can also be a factor as it can erase a previous error: after each move a new tile is filed by a 2 or a 4 and randomly positioned in available space.
-										One can see that the wrong tile being filed at the wrong time will be a disater.
-										The game and problem we would like to solve is however quite simple to modelised. 
-										That is why back in 2020, I challenge myself to beat my own record using an algorithm.
-										I though that if I could remove my own tendency to play too fast and then to make mistakes as a results I could improve.
+										The main limitation of the game is that a single mistake, a single false move, can cost you the game.
+										Chance can also play a role, as it can erase a previous mistake: after each move, a new tile is marked with a 2 or a 4 and randomly positioned in the available space.
+										And, obviously, the wrong tile being filled at the wrong time will spell disaster.
+										However, the game and the problem we want to solve are fairly simple to model. 
+										That is why, in 2020, I set myself the challenge of beating my own record using an algorithm.
+										I thought that if I could get rid of my own tendency to play too fast and make mistakes as a result, I could improve.
 									</p>
 									<br>
 									<p>
-										Therefore, I tried to beat the game with an algorithm that I develop in Python for convinience. It was more or less a 2-3 days project I would say.
+										Therefore, I tried to beat the game with an algorithm that I developed in Python for convinience. 
+										It was more or less a 2-3 day project I would say.
+									</p>
+									<p>
+										Disclamer: this is not an attempt to beat a world record, but simply my personal best.
 									</p>
 
 								</article>
@@ -115,84 +119,91 @@
 						<!-- Content -->
 							<div id="content">
 								<article class="box post">
-									<header id="thegamelogoandgameicon" class="style1">
+									<header class="style1">
 										<h2>Recoding the game in Python</h2>
 									</header>
 								<a class="image left"><img src="images/2048/gif_ex.gif" alt="" /></a>
 								<p>
-									The first step of the process was to recode the game in python so my algorithm could play it.
-									It was pretty staright forward as all the rules of the game are pretty well documented and could be found online (including the probability of spawning 2s or 4s).
+									The first step in the process was to recode the game in Python so that my algorithm could play it.
+									It was pretty straightforward because all the rules of the game are fairly well documented and can be found online (including the probability of producing 2s or 4s).
 								</p>
 								<p>
-									I took the time to make a simple interface to play the game and display results. In this version the player enter a letter for a move: "z"=up, "d"=right, "q"= left and "s"=down (french keybord traditionnal setup).
-									From there I could even play the game on this program as sown in the short gif on the left side. However, there was no animation so the movment of the tiles is not that easy to comprehend if you are not the one playing.
-									But for the purpose of the experiment this will do.
+									I've taken the time to create a simple interface for playing the game and displaying the results. In this version, the player enters a letter for a move: "z" = up, "d" = right, "q" = left and "s" = down.
+									From there, I was able to play the game on this program, as shown in the little gif on the left. However, there was no animation and the movement of the tiles is not easy to understand if you're not the one playing.
+									But for the purposes of the experiment, this will do.
 								</p>
 								<br>
 								<br>
 								<br>
-								<header id="thegamelogoandgameicon" class="style1">
+								<header class="style1">
 									<h2>What I tried</h2>
 								</header>
 								<p>
-									The first thing I ried was to implement some Convulutionnal Neural Network (CNN) because I though it was a good place for it. 
-									I experiment with different set up of multiple layers of CNN with different loss function. The training was a bit hard to set up as I mylsef play few games to give the NN something to start from. 
-									These experiements mostly failed to my standard, as I could only reach a 1024 maximum tile in what mostly felt like luck and brute force try and retry.
+									The first thing I tried to do was implement a convolutional neural network (CNN) because I thought it was a good place to do it. 
+									I have experimented with different configurations of multiple CNN layers with different loss functions. 
+									The training was a bit difficult to set up, as I only played a few games to give the NN a starting point. 
+									Most of these experiments failed at my level, as I was only able to reach a maximum of 1024 tiles by what I mostly felt was luck and brute force.
 								</p>
 								<p>
-									My second experiement was to shift torward reninforced machine learning. However, to be honest, I could not quite figure the right reward function to make it work in the few hours I spend on it. 
-									Again, the results were pretty poor and it barely broke the 512 maximum tile.
+									My second experiment was to switch to enhanced machine learning. 
+									However, to be honest, I could not find the right reward function to make it work in the few hours I spent on it. 
+									Once again, the results were rather mediocre and the maximum number of 512 tiles was barely exceeded.
 								</p>
 								<p>
-									That is when it hit me: Why do everybody wants to do Neural Networks and Machine Learning when perfetly good analyticle solution exists? 
-									After all the strategy I am using when I am playing resolve only little on improvisation and adaptation and could be simply coded.
-									And here I am not trying to impress my superiors or ill advised clients by selling some up and trending feature, so let's go back to being smart.
+									That is when I realised: Why does everyone want to do neural networks and machine learning when there are some really good analytical solutions out there? 
+									After all, the strategy I use when I play relies very little on improvisation and adaptation and could simply be coded.
+									And here I am not trying to impress my superiors or ill-informed clients by selling a trendy feature, so let's get back to being smart.
 								</p>
-								<header id="thegamelogoandgameicon" class="style1">
+								<header class="style1">
 									<h2>The Strategy</h2>
 								</header>
 								<a class="image left"><img src=images/2048/perfect.png" alt="" /></a>
 								<p>
-									When one play "2048", on would quickly realise that it is way easier to substain a run if your maximum tile is set up in a corner.
-									Then a good strategy is to set up your tiles following a snake pattern starting from this maximum tile in per descending order (see illustration on the left).
-									This way you can optimise your space and and give you a better chance to reach a high score.
-									The purpose of this set up is to make sure that each tile is next to its two time tile. 
-									This way you will be able to trigger a domino effect when you get all the tiles necessary to increase you maximum tile.
-									The maximum tile then needs to be in the corner for two reasons. First it does not have a two time tile so it only need to be in contact with its divided by two tile, any extra conctat with tile is useless and suboptimal.
-									Secondly, sticking it in a corner (let's say lower right for example) allows you to keep it there by a combination of right and down moves; the left and up move should not be used (that is usually when game breaking mistakes happen) unless in some very specific cases. 
-								</p>
+									When you play "2048", you quickly realise that it's much easier to substain a run if the maximum tile is placed in a corner.
+									Then, a good strategy is to place the tiles in a snake-shaped pattern starting from this maximum tile, in descending order (see illustration on the left).
+									This way, you can optimise your space and give yourself a better chance of achieving a high score.
+									The aim of this stategy is to ensure that each tile is next to its two time tile. 
+									This way, you can then trigger a domino effect as soon as you have all the tiles you need to increase your maximum tile.
+									There are two reasons why the maximum tile should be in the corner. 
+									First of all, it doesn't have a two time tile, so it only needs to be in contact with its halved tile; any additional contact with extra tiles is pointless and sub-optimal.
+									Secondly, sticking it in a corner (say bottom right for example) allows you to keep it there by combining right and down movements; left and up movements should not be used (this is usually where game errors occur), except in very specific cases. 
 								<br>
 								<p>
-									This is the strategy that I used in my personal runs. Usually getting your maximum tile out of the corner is pretty much game over past a certain point (a 1024 maximum tile from experience).
-									Breaking the snake pattern will also make is incredably difficult in the late game.
+									This is the strategy I used in my personal runs. 
+									In general, getting your maximum tile out of the corner is pretty much game over after a certain point (a maximum tile of 1024 from my experience).
+									Breaking the snake's pattern will also make the game incredibly difficult in the late game end.
 								</p>
-								<header id="thegamelogoandgameicon" class="style1">
+								<header class="style1">
 									<h2>Implementing The Strategy</h2>
 								</header>
 								<p>
-									There is two way to go about it: you can either code most of the scenario case by case; or just find a way to make the algorithm evaluate what is the best move depending on the situation by a simple move rating function.
-									I am lazy so I picked the second one obviously. I will not detail the whole fomula here, but I will touch on what it is trying to achieved. There is few principles that we want to implement:
+									There are two ways of doing this: you can either code most scenarios on a case-by-case basis, or you can find a way of making the algorithm evaluate the best movement for the situation by means of a simple movement evaluation function.
+									As I'm lazy, I chose the second one, obviously. 
+									I won't go into detail about the whole formula here, but I will mention what it is trying to achieve. 
+									There are a number of principles that we want to implement:
 								</p>
 								<p>
-									One of them is that we want our maximum tile in a corner.
-									To enforce that we can simply give extra bonus points in case it is true and game breacking malus if it is false.
+									One of them is that we want the maximum tile to be placed in a corner.
+									This rule is enforced by awarding extra bonus points if the information is true, and game-breaking penalties if it is false.
 								</p>
 								<p>
-									Then, we would like the algorithm to stack tiles as much as possible (i.e. saving the most space is can), for this can just look for optimise the mean of number per occupied tile (0 in a tile means it is not occupied).
+									Next, we would like the algorithm to stack the tiles as much as possible (i.e. save as much space as possible). 
+									To do this, we simply try to optimise the average number of tiles per occupied tile (0 in a tile means it's not occupied).
 								</p>
 								<p>
-									Next, we would want to implement some sort of snake pattern. I started by simply asking that the second largest tile would be next to the maximum tile with a bonus and game breaking malus system depending on the situation.
-									The degree to which you want the snake pattern to be true is an optimisation question that we could improve later on.
+									Next, we would like to implement a kind of snake model. 
+									I started by simply asking that the second largest tile be placed next to the largest tile, with a system of bonuses and penalties depending on the situation.
+									The extent to which you want the snake pattern to be true is a question of optimisation that we can improve later.
 								</p>
 								<p>
-									And finally, if the move is a losing end of the game move we obviously don't want that so let's put the reward at minus infinity.
+									Finally, if the movement loses at the end of the game, which we obviously don't want it to, then let's set the reward at an extremely negative level.
 								</p>
 								<p>
-									And that is pretty much it for the strategy. Pretty simple right? At each turn this startegy will evaluate the outcome of each 4 possible move and rate them according to our rules.
-									Now let test it and see if we can optimise it a bit.
+									And that's about it for the strategy. Pretty simple, isn't it? Each turn, this strategy evaluates the result of each of the 4 possible moves and rates them according to our rules.
+									Now let's test it and see if we can optimise it a little.
 								</p>
-								<header id="thegamelogoandgameicon" class="style1">
-									<h2>Preminilary Results and Optimisation</h2>
+								<header class="style1">
+									<h2>Preliminary Results and Optimisation</h2>
 								</header>
 
 								<div class="row aln-center">
@@ -206,32 +217,38 @@
 									<div class="col-8 col-12-medium">
 										<section class="highlight">
 											<p>
-												This startegy reach 2048 in about 10% of the runs, which is already pretty good. However that is not enought I would like to beat my own record and to be pretty dominant doing so.
+												This algorithm reaches 2048 in about 10% of runs, which is already very good. 
+												However, that's not enough, I would like to beat my own record in a dominant way.
 											</p>
 											<p>
-												So what can we improve? The first thing to consider is that after each move, a random tile of 2 or 4 is added. And this is randomso by simulating only one time the move we are not getting the full picture!
-												One random generation might be acceptable, another one might break the game and lead to a loss. 
-												So from now on let's simulate like 20 of them to be safe. Why 20? 
-												Because there is 16 tiles in the game; at in the middle game and late game you will have at least half of your tiles occupied so 20 means that you will most likely generate enought times your moves to have all situations possible.
-												We could have gone deterministic about it and figure out all possible outcomes for each move but, firstly be lazy, and secondly trust the maths will do you job because we are not trying to go for a world record here.
+												So what can we do better? The first thing to consider is that after each move, a random 2 or 4 tile is added. 
+												And as this is a random phenomenon, simulating the movement only once does not give a complete picture of the situation!
+												One random generation may be acceptable, another may break the game and result in a loss. 
+											</p>
+											<p>
+												So from now on, we're going to simulate 20 of them to be sure. Why 20? 
+												Because there are 16 tiles in the game, by the middle and end of the game you'll have at least half of your tiles occupied, so 20 means it will probably generate moves enough times to have every possible situation.
+												We could have been deterministic and calculated all the possible outcomes for each move, but, firstly, I am lazy, secondly, we trust the maths to do the job, and thirdly I am not trying to break a world record.
 											</p>
 										</section>
 									</div>
 								</div>
 								<p>
-									Then the purpose of the game is NOT to get a maximum tile higher! It is to keep playing!
-									Meaning that making a particuliar move might give you short term high score but might end you game short after that. We rather limit the risk of losing and keep player as long as we can.
-									So when we generate 20 times each move we don't want to go for the move with the highest mean score. We want to go for the move which will keep us playing the game.
-									This can be translated into the move from which the mean is closer to the maximum while having a large maximum reward. 
-									This way we avoid this move that work perfectly 95% of the time but lead to a strait loss the rest 5% of the time.
-									I will refer to this as the "keep playing" feature.
+									The aim of the game is NOT to get the highest possible maximum tile. It is to keep on playing!
+									This means that a particular move may give you a high score in the short term, but may end your game soon afterwards. 
+									We prefer to limit the risk of loss and keep the run going for as long as possible.
+									So when we generate each move 20 times, we do not want to choose the move with the highest average score. 
+									We want to go for the move that will allow us to continue playing the game.
+									This can be translated into the move which the average reward is closer to the maximum reward while still having a high maximum reward. 
+									In this way, we avoid moves that work perfectly in 95% of cases, but lead to a direct loss in the remaining 5%.
+									This is what I reafer later on as the "keep playing" feature.
 								</p>
 								<p>
-									Finally, we looked at the next move, but what prevent us for looking at the next one as well and so on? 
-									This way we would rate a move not only on its immediat reward but also on the next possibility it offers.
-									We would also anticipate bad situation that can arise over several turn and be able to pick the safest path.
+									Finally, we have looked at the next move, but what is stopping us from looking at the next move and so on? 
+									In this way, we evaluate a movement not only in terms of its immediate reward, but also in terms of the next opportunity it offers.
+									We could also anticipate bad situations that may arise over the course of several turns and be able to choose the safest route.
 								</p>
-								<header id="thegamelogoandgameicon" class="style1">
+								<header class="style1">
 									<h2>Results</h2>
 								</header>
 								<div class="row aln-center">
@@ -246,20 +263,20 @@
 									<div class="col-8 col-12-medium">
 										<section class="highlight">
 											<p>
-												I implemented all these solution over several steps, lets look at the results.
+												I have implemented all these solutions in several stages, and let's have a look at the results.
 											</p>
 											<p>
-												For the first try, I look at every move 20 times and anticipated only one move (no "keep playing" feature): it reaches 2048 19% of runs.
+												For the first test, I looked each move 20 times and only anticipated one move (no "keep playing" feature): it reached 2048 in 19% of cases.
 											</p>
 											<p>
-												For the second try, I look at every move 20 times and anticipated 2 moves (no "keep playing" feature): it reaches 2048 29% of the runs.
+												For the second attempt, I looked each move 20 times and anticipated two moves (no "keep playing" feature): it reaches 2048 in 29% of cases.
 											</p>
 											<p>
-												For the third try, I look at every move 20 times and anticipated 2 moves with a "keep playing" feature: it reaches 2048 60% of the runs. Howeverit never reached 4096.
+												For the third attempt, I looked each move 20 times and anticipated 2 moves with a "keep playing" feature: it reached 2048 in 60% of cases. However, it never reached 4096.
 											</p>
 											<p>
-												Lastly, I looked a every move 4 times (to limit computation time, plus the end game seems to be the problem here and tere is not that much tiles left), anticipated 3 moves with a "keep playing" feature: it reaches 2048 over 95% of the runs.
-												It also reached 4096 in only 6 tries with a score of 6068, outscoring my personnal by 454 pts (in freaking 6 tries!!).
+												Finally, I looked at each move 4 times (to limit the calculation time, plus the end of the game seems to be the problem here and there are not many  empty tiles left), anticipated 3 moves with a "keep playing" function: it reaches 2048 in more than 95% of cases.
+												He also reached 4096 in just 6 attempts with a score of 6068, beating my personal score of 454 pts (in just 6 attempts!!).
 											</p>
 										</section>
 									</div>
@@ -268,7 +285,7 @@
 								<br>
 								<br>
 
-								<header id="thegamelogoandgameicon" class="style1">
+								<header class="style1">
 									<h2>Conclusion</h2>
 								</header>
 								<a class="image left"><img src="images/2048/ex_poor_pattern.png" alt="" /></a>
