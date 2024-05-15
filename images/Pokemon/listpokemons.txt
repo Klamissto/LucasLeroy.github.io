@@ -1,0 +1,617 @@
+Bulbasaur
+Ivysaur
+Venusaur
+Charmander
+Charmeleon
+Charizard
+Squirtle
+Wartortle
+Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Rattata
+Rattata Alolan Form
+Raticate
+Raticate Alolan Form
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+Raichu Alolan Form
+Sandshrew
+Sandshrew Alolan Form
+Sandslash
+Sandslash Alolan Form
+Nidoran (female)
+Nidorina
+Nidoqueen
+Nidoran (male)
+Nidorino
+Nidoking
+Clefairy
+Clefable
+Vulpix
+Vulpix Alolan Form
+Ninetales
+Ninetales Alolan Form
+Jigglypuff
+Wigglytuff
+Zubat
+Golbat
+Oddish
+Gloom
+Vileplume
+Paras
+Parasect
+Venonat
+Venomoth
+Diglett
+Diglett Alolan Form
+Dugtrio
+Dugtrio Alolan Form
+Meowth
+Meowth Alolan Form
+Meowth Galarian Form
+Persian
+Persian Alolan Form
+Psyduck
+Golduck
+Mankey
+Primeape
+Growlithe
+Growlithe Hisuian Form
+Arcanine
+Arcanine Hisuian Form
+Poliwag
+Poliwhirl
+Poliwrath
+Abra
+Kadabra
+Alakazam
+Machop
+Machoke
+Machamp
+Bellsprout
+Weepinbell
+Victreebel
+Tentacool
+Tentacruel
+Geodude
+Geodude Alolan Form
+Graveler
+Graveler Alolan Form
+Golem
+Golem Alolan Form
+Ponyta
+Ponyta Galarian Form
+Rapidash
+Rapidash Galarian Form
+Slowpoke
+Slowpoke Galarian Form
+Slowbro
+Slowbro Galarian Form
+Magnemite
+Magneton
+Farfetch'd
+Farfetch'd Galarian Form
+Doduo
+Dodrio
+Seel
+Dewgong
+Grimer
+Grimer Alolan Form
+Muk
+Muk Alolan Form
+Shellder
+Cloyster
+Gastly
+Haunter
+Gengar
+Onix
+Drowzee
+Hypno
+Krabby
+Kingler
+Voltorb
+Voltorb Hisuian Form
+Electrode
+Electrode Hisuian Form
+Exeggcute
+Exeggutor
+Exeggutor Alolan Form
+Cubone
+Marowak
+Marowak Alolan Form
+Hitmonlee
+Hitmonchan
+Lickitung
+Koffing
+Weezing
+Weezing Galarian Form
+Rhyhorn
+Rhydon
+Chansey
+Tangela
+Kangaskhan
+Horsea
+Seadra
+Goldeen
+Seaking
+Staryu
+Starmie
+Mr. Mime
+Mr. Mime Galarian Form
+Scyther
+Jynx
+Electabuzz
+Magmar
+Pinsir
+Tauros
+Tauros (Paldean, Combat)
+Tauros (Paldean, Blaze)
+Tauros (Paldean, Aqua)
+Magikarp
+Gyarados
+Lapras
+Ditto
+Eevee
+Vaporeon
+Jolteon
+Flareon
+Porygon
+Omanyte
+Omastar
+Kabuto
+Kabutops
+Aerodactyl
+Snorlax
+Articuno
+Articuno Galarian Form
+Zapdos
+Zapdos Galarian Form
+Moltres
+Moltres Galarian Form
+Dratini
+Dragonair
+Dragonite
+Mewtwo
+Mew
+Chikorita
+Bayleef
+Meganium
+Cyndaquil
+Quilava
+Typhlosion
+Typhlosion Hisuian Form
+Totodile
+Croconaw
+Feraligatr
+Sentret
+Furret
+Hoothoot
+Noctowl
+Ledyba
+Ledian
+Spinarak
+Ariados
+Crobat
+Chinchou
+Lanturn
+Pichu
+Cleffa
+Igglybuff
+Togepi
+Togetic
+Natu
+Xatu
+Mareep
+Flaaffy
+Ampharos
+Bellossom
+Marill
+Azumarill
+Sudowoodo
+Politoed
+Hoppip
+Skiploom
+Jumpluff
+Sunkern
+Sunflora
+Yanma
+Wooper
+Wooper Paldean Form
+Quagsire
+Espeon
+Umbreon
+Murkrow
+Slowking
+Slowking Galarian Form
+Misdreavus
+Unown
+Wobbuffet
+Girafarig
+Pineco
+Forretress
+Dunsparce
+Gligar
+Steelix
+Snubbull
+Granbull
+Qwilfish
+Qwilfish Hisuian Form
+Scizor
+Shuckle
+Heracross
+Sneasel
+Sneasel Hisuian Form
+Teddiursa
+Ursaring
+Slugma
+Magcargo
+Swinub
+Piloswine
+Corsola
+Corsola Galarian Form
+Remoraid
+Octillery
+Delibird
+Mantine
+Skarmory
+Houndour
+Houndoom
+Kingdra
+Phanpy
+Donphan
+Porygon2
+Stantler
+Smeargle
+Tyrogue
+Hitmontop
+Smoochum
+Elekid
+Magby
+Miltank
+Blissey
+Raikou
+Entei
+Suicune
+Larvitar
+Pupitar
+Tyranitar
+Lugia
+Ho-Oh
+Celebi
+Treecko
+Grovyle
+Sceptile
+Torchic
+Combusken
+Blaziken
+Mudkip
+Marshtomp
+Swampert
+Poochyena
+Mightyena
+Zigzagoon
+Zigzagoon Galarian Form
+Linoone
+Linoone Galarian Form
+Wurmple
+Silcoon
+Beautifly
+Cascoon
+Dustox
+Lotad
+Lombre
+Ludicolo
+Seedot
+Nuzleaf
+Shiftry
+Wingull
+Pelipper
+Ralts
+Kirlia
+Gardevoir
+Slakoth
+Vigoroth
+Slaking
+Nincada
+Ninjask
+Shedinja
+Whismur
+Loudred
+Exploud
+Azurill
+Nosepass
+Sableye
+Mawile
+Aron
+Lairon
+Aggron
+Electrike
+Manectric
+Roselia
+Gulpin
+Swalot
+Carvanha
+Sharpedo
+Wailmer
+Wailord
+Numel
+Camerupt
+Torkoal
+Trapinch
+Vibrava
+Flygon
+Cacnea
+Cacturne
+Swablu
+Altaria
+Zangoose
+Seviper
+Barboach
+Whiscash
+Corphish
+Crawdaunt
+Baltoy
+Claydol
+Anorith
+Armaldo
+Feebas
+Milotic
+Shuppet
+Banette
+Duskull
+Dusclops
+Chimecho
+Absol
+Wynaut
+Snorunt
+Glalie
+Spheal
+Sealeo
+Walrein
+Clamperl
+Huntail
+Gorebyss
+Relicanth
+Bagon
+Shelgon
+Salamence
+Beldum
+Metang
+Metagross
+Regirock
+Regice
+Registeel
+Kyogre
+Groudon
+Rayquaza
+Turtwig
+Grotle
+Torterra
+Chimchar
+Monferno
+Infernape
+Piplup
+Prinplup
+Empoleon
+Starly
+Staravia
+Staraptor
+Bidoof
+Bibarel
+Shinx
+Luxio
+Luxray
+Budew
+Roserade
+Shieldon
+Bastiodon
+Combee
+Vespiquen
+Pachirisu
+Buneary
+Lopunny
+Mismagius
+Honchkrow
+Stunky
+Skuntank
+Bronzor
+Bronzong
+Bonsly
+Mime Jr.
+Happiny
+Spiritomb
+Gible
+Gabite
+Garchomp
+Munchlax
+Riolu
+Lucario
+Hippopotas
+Hippowdon
+Skorupi
+Drapion
+Croagunk
+Toxicroak
+Carnivine
+Finneon
+Lumineon
+Mantyke
+Snover
+Abomasnow
+Weavile
+Magnezone
+Lickilicky
+Rhyperior
+Tangrowth
+Electivire
+Magmortar
+Togekiss
+Yanmega
+Leafeon
+Glaceon
+Gliscor
+Mamoswine
+Porygon-Z
+Gallade
+Dusknoir
+Froslass
+Rotom
+Heatran
+Regigigas
+Darkrai
+Shaymin Land Form
+Snivy
+Servine
+Serperior
+Roggenrola
+Boldore
+Gigalith
+Drilbur
+Excadrill
+Timburr
+Gurdurr
+Conkeldurr
+Venipede
+Whirlipede
+Scolipede
+Sandile
+Krokorok
+Krookodile
+Scraggy
+Scrafty
+Yamask
+Yamask Galarian Form
+Cofagrigus
+Zorua
+Zoroark
+Vanillite
+Vanillish
+Vanilluxe
+Joltik
+Galvantula
+Ferroseed
+Ferrothorn
+Tynamo
+Eelektrik
+Eelektross
+Litwick
+Lampent
+Chandelure
+Axew
+Fraxure
+Haxorus
+Cubchoo
+Beartic
+Cryogonal
+Golett
+Golurk
+Pawniard
+Bisharp
+Bouffalant
+Deino
+Zweilous
+Hydreigon
+Larvesta
+Volcarona
+Froakie
+Frogadier
+Greninja
+Bunnelby
+Diggersby
+Fletchling
+Fletchinder
+Talonflame
+Skiddo
+Gogoat
+Pancham
+Pangoro
+Clauncher
+Clawitzer
+Tyrunt
+Tyrantrum
+Bergmite
+Avalugg
+Avalugg Hisuian Form
+Litten
+Torracat
+Incineroar
+Pikipek
+Trumbeak
+Toucannon
+Mareanie
+Toxapex
+Stufful
+Bewear
+Bounsweet
+Steenee
+Tsareena
+Mimikyu
+Solgaleo
+Rookidee
+Corvisquire
+Corviknight
+Rolycoly
+Carkol
+Coalossal
+Applin
+Flapple
+Appletun
+Silicobra
+Sandaconda
+Toxel
+Toxtricity (Amped)
+Toxtricity (Low Key)
+Sizzlipede
+Centiskorch
+Impidimp
+Morgrem
+Grimmsnarl
+Perrserker
+Sirfetch'd
+Cufant
+Copperajah
+Glastrier
+Spectrier
+Calyrex
+Calyrex (Ice Rider)
+Calyrex (Shadow Rider)
+Wyrdeer
+Kleavor
+Ursaluna
+Sneasler
+Overqwil
+Sprigatito
+Floragato
+Meowscarada
+Charcadet
+Armarouge
+Ceruledge
+Tinkatink
+Tinkatuff
+Tinkaton
+Annihilape
+Clodsire
+Farigiraf
+Kingambit
+Great Tusk
+Scream Tail
+Flutter Mane
+Slither Wing
+Gimmighoul (Chest)
+Gimmighoul (Roaming)
+Gholdengo
+Chien-Pao
+Dipplin
+Hydrapple
